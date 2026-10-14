@@ -1,6 +1,11 @@
 {
   "members": [
     {
+      "id": 5,
+      "name": "Thảo",
+      "avatar": "https://s160-26-ava-talk.zadn.vn/159/7f65fbdaa6e1190a0c798724ca484886.jpg?key=8DsKD8VYsDgezKSNLUWlyg&time=1797144112"
+    },
+    {
       "id": 1,
       "name": "Tiên",
       "avatar": "https://s160-26-ava-talk.zadn.vn/137/202fb3c926a732242936a894c6260225.jpg?key=IPMlRp9aSk-UU7ANtpFsXw&time=1797144112"
@@ -19,11 +24,6 @@
       "id": 4,
       "name": "Trịnh Tú",
       "avatar": "https://s120-26-ava-talk.zadn.vn/26/e8fbded3a5a3d5f3eb3bc4f18ee95e5b.jpg?key=zMBHYoP-Q-Jc75eu2GLm1g&time=1797144113"
-    },
-    {
-      "id": 5,
-      "name": "Thảo",
-      "avatar": "https://s160-26-ava-talk.zadn.vn/159/7f65fbdaa6e1190a0c798724ca484886.jpg?key=8DsKD8VYsDgezKSNLUWlyg&time=1797144112"
     },
     {
       "id": 6,
