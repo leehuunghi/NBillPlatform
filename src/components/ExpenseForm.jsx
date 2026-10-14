@@ -185,7 +185,7 @@ export default function ExpenseForm({ members, me, expense, saving, onSubmit, on
           />
 
           <h3 className="mt-3.5 font-display text-xl font-extrabold">{t('add.payerLabel')}</h3>
-          <div className="no-scrollbar mt-1.5 flex gap-2 overflow-x-auto pb-1">
+          <div className="mt-1.5 flex flex-wrap gap-2">
             {members.map(m => (
               <button
                 key={m.id}
