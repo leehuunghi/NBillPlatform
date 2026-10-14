@@ -1,5 +1,6 @@
 import React, { useMemo, useState } from 'react';
 import { motion } from 'framer-motion';
+import { Repeat } from 'lucide-react';
 import Avatar from './Avatar.jsx';
 import { SheetHeader } from './Sheet.jsx';
 import { CATEGORY_BG } from './ExpenseCard.jsx';
@@ -65,6 +66,7 @@ const Segmented = ({ options, value, onChange }) => (
 export default function ExpenseForm({ members, me, expense, saving, onSubmit, onClose }) {
   const [form, setForm] = useState(() => initialState(members, me, expense));
   const [error, setError] = useState('');
+  const [payerOpen, setPayerOpen] = useState(false);
   const set = patch => {
     setError('');
     setForm(prev => ({ ...prev, ...patch }));
@@ -83,6 +85,7 @@ export default function ExpenseForm({ members, me, expense, saving, onSubmit, on
     return splitEqually(Number(form.amount) || 0, participants.map(m => m.id));
   }, [custom, participants, form.custom, form.amount]);
 
+  const payer = members.find(m => m.id === form.payerId) || null;
   const allSelected = form.participants.length === members.length;
   const perPerson = participants.length ? total / participants.length : 0;
 
@@ -185,21 +188,47 @@ export default function ExpenseForm({ members, me, expense, saving, onSubmit, on
           />
 
           <h3 className="mt-3.5 font-display text-xl font-extrabold">{t('add.payerLabel')}</h3>
-          <div className="mt-1.5 flex flex-wrap gap-2">
-            {members.map(m => (
-              <button
-                key={m.id}
-                type="button"
-                onClick={() => set({ payerId: m.id })}
-                aria-pressed={form.payerId === m.id}
-                className={`flex h-11 flex-none items-center gap-2 rounded-full py-0 pl-2 pr-3.5 text-sm font-extrabold ${
-                  form.payerId === m.id ? 'bg-brand text-white' : 'bg-white'
-                }`}
-              >
-                <Avatar member={m} size={26} ring={0} />
-                {m.name}
-              </button>
-            ))}
+          <div className="mt-1.5 flex flex-wrap items-center gap-2">
+            {payerOpen ? (
+              members.map(m => (
+                <button
+                  key={m.id}
+                  type="button"
+                  onClick={() => {
+                    set({ payerId: m.id });
+                    setPayerOpen(false);
+                  }}
+                  aria-pressed={form.payerId === m.id}
+                  className={`flex h-11 flex-none items-center gap-2 rounded-full py-0 pl-2 pr-3.5 text-sm font-extrabold ${
+                    form.payerId === m.id ? 'bg-brand text-white' : 'bg-white'
+                  }`}
+                >
+                  <Avatar member={m} size={26} ring={0} />
+                  {m.name}
+                </button>
+              ))
+            ) : (
+              <>
+                {payer && (
+                  <span className="flex h-11 min-w-0 items-center gap-2 rounded-full bg-brand py-0 pl-2 pr-4 text-sm font-extrabold text-white">
+                    <Avatar member={payer} size={26} ring={0} />
+                    <span className="truncate">
+                      {payer.name}
+                      {me && payer.id === me.id ? t('common.youSuffix') : ''}
+                    </span>
+                  </span>
+                )}
+                <button
+                  type="button"
+                  onClick={() => setPayerOpen(true)}
+                  aria-expanded={payerOpen}
+                  className="flex h-11 items-center gap-1.5 rounded-full bg-white px-4 text-sm font-extrabold text-brand"
+                >
+                  <Repeat size={15} strokeWidth={2.6} />
+                  {t('add.changePayer')}
+                </button>
+              </>
+            )}
           </div>
 
           <div className="mt-3.5 flex items-baseline justify-between">

@@ -88,6 +88,7 @@
     "amountPlaceholder": "0",
     "dateLabel": "Ngày",
     "payerLabel": "Ai trả tiền?",
+    "changePayer": "Đổi người trả",
     "modeEqual": "Chia đều",
     "modeCustom": "Tùy chỉnh số tiền",
     "whoTitle": "Ai tham gia?",
