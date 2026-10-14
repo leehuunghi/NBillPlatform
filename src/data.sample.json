@@ -1,0 +1,22 @@
+{
+  "members": [
+    { "id": 1, "name": "Nghị", "avatar": "/avatars/nghi.jpg", "isTreasurer": true },
+    { "id": 2, "name": "Linh", "avatar": "/avatars/linh.jpg" },
+    { "id": 3, "name": "Minh", "avatar": "/avatars/minh.jpg" },
+    { "id": 4, "name": "Hà", "avatar": "/avatars/ha.jpg" },
+    { "id": 5, "name": "Tú", "avatar": "/avatars/tu.jpg" },
+    { "id": 6, "name": "Vy", "avatar": "/avatars/vy.jpg" },
+    { "id": 7, "name": "Khoa", "avatar": "/avatars/khoa.jpg" },
+    { "id": 8, "name": "Mai", "avatar": "/avatars/mai.jpg" },
+    { "id": 9, "name": "Đạt", "avatar": "/avatars/dat.jpg" },
+    { "id": 10, "name": "Thảo", "avatar": "/avatars/thao.jpg" }
+  ],
+  "expenses": [],
+  "payments": [],
+  "treasurerAccount": "",
+  "treasurerBankBin": "970422",
+  "treasurerAccountNo": "0123456789",
+  "treasurerAccountName": "LE HUU NGHI",
+  "qrCache": {},
+  "nextMemberId": 11
+}

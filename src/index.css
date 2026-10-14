@@ -3,10 +3,70 @@
 @tailwind utilities;
 
 :root {
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-family: 'Nunito', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  color: #1e1b3a;
 }
 
 body {
   margin: 0;
-  background-color: #f9fafb;
+  background-color: #f5f1ff;
+}
+
+button {
+  font-family: inherit;
+}
+
+@layer components {
+  .chunk-btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full font-extrabold shadow-chunk transition-transform duration-200 active:translate-y-0.5;
+  }
+  .card-surface {
+    @apply rounded-[28px] bg-white shadow-chunk;
+  }
+  .input-field {
+    @apply w-full rounded-[18px] border-2 border-[#E4DDFB] bg-[#FAF8FF] px-4 font-bold text-ink outline-none transition-colors focus:border-brand;
+  }
+}
+
+.hero-gradient {
+  background-size: 200% 200%;
+  animation: hero-shift 8s ease infinite;
+}
+
+.blob-float {
+  animation: blob-float 3.6s ease-in-out infinite;
+}
+
+.no-scrollbar {
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+@keyframes hero-shift {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes blob-float {
+  0%,
+  100% {
+    transform: translateY(0) rotate(-4deg);
+  }
+  50% {
+    transform: translateY(-12px) rotate(4deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-gradient,
+  .blob-float {
+    animation: none;
+  }
 }
