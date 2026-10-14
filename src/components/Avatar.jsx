@@ -18,10 +18,14 @@ export const avatarColor = id => PALETTE[(Math.abs(Number(id) || 1) - 1) % PALET
 // Ảnh lấy từ member.avatar (đường dẫn trong repo hoặc URL). Thiếu ảnh hoặc
 // ảnh lỗi thì rơi về chữ cái đầu trên nền pastel theo id.
 export default function Avatar({ member, size = 40, ring = 2, className = '' }) {
-  const [failed, setFailed] = useState(false);
-  const src = member?.avatar || '';
+  // stage 0: tải thẳng (không gửi referrer); 1: qua proxy /api/avatar; 2: chữ cái đầu.
+  const [stage, setStage] = useState(0);
+  const avatar = member?.avatar || '';
+  const isRemote = /^https?:\/\//i.test(avatar);
+  const src = stage === 0 || !isRemote ? avatar : `/api/avatar?u=${encodeURIComponent(avatar)}`;
+  const failed = stage >= 2 || (stage === 1 && !isRemote);
 
-  useEffect(() => setFailed(false), [src]);
+  useEffect(() => setStage(0), [avatar]);
 
   const style = {
     width: size,
@@ -42,7 +46,8 @@ export default function Avatar({ member, size = 40, ring = 2, className = '' }) 
           alt=""
           draggable="false"
           className="h-full w-full object-cover"
-          onError={() => setFailed(true)}
+          referrerPolicy="no-referrer"
+          onError={() => setStage(current => current + 1)}
         />
       ) : (
         <span aria-hidden="true">{String(member?.name || '?').charAt(0).toUpperCase()}</span>

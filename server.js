@@ -2,6 +2,7 @@ import 'dotenv/config';
 import express from 'express';
 import { dataStore, defaultData } from './api/_utils.js';
 import { applyDataMutation, DataActionError } from './api/_dataMutations.js';
+import avatarHandler from './api/avatar.js';
 
 const app = express();
 const PORT = 5174;
@@ -43,6 +44,8 @@ app.post('/api/data-action', async (req, res) => {
     res.status(status).json({ success: false, error: err?.message || 'Không thể lưu dữ liệu' });
   }
 });
+
+app.get('/api/avatar', (req, res) => avatarHandler(req, res));
 
 app.post('/api/vietqr', async (req, res) => {
   try {
