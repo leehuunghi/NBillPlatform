@@ -54,10 +54,10 @@
   ],
   "expenses": [],
   "payments": [],
-  "treasurerAccount": "",
-  "treasurerBankBin": "",
-  "treasurerAccountNo": "",
-  "treasurerAccountName": "",
+  "treasurerAccount": "Sacombank - 064307842412",
+  "treasurerBankBin": "970403",
+  "treasurerAccountNo": "064307842412",
+  "treasurerAccountName": "Le Huu Nghi",
   "qrCache": {},
   "nextMemberId": 11
 }
