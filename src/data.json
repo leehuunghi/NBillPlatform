@@ -47,12 +47,62 @@
       "avatar": "https://s160-26-ava-talk.zadn.vn/86/7d898a74f69abd41aab9f478b3a074d7.jpg?key=9uhXRkkSHlAreSOJYLlvCA&time=1797144112"
     }
   ],
-  "expenses": [],
+  "expenses": [
+    {
+      "id": 1792467613971,
+      "amount": 1000000,
+      "payerId": 7,
+      "splits": [
+        {
+          "memberId": 5,
+          "amount": 111111
+        },
+        {
+          "memberId": 1,
+          "amount": 111111
+        },
+        {
+          "memberId": 3,
+          "amount": 111111
+        },
+        {
+          "memberId": 4,
+          "amount": 111111
+        },
+        {
+          "memberId": 6,
+          "amount": 111111
+        },
+        {
+          "memberId": 7,
+          "amount": 111111
+        },
+        {
+          "memberId": 8,
+          "amount": 111111
+        },
+        {
+          "memberId": 9,
+          "amount": 111111
+        },
+        {
+          "memberId": 10,
+          "amount": 111112
+        }
+      ],
+      "note": "Cọc phòng",
+      "category": "other",
+      "date": "2026-10-19",
+      "createdBy": 7,
+      "createdAt": "2026-10-20T03:40:13.971Z"
+    }
+  ],
   "payments": [],
   "treasurerAccount": "Sacombank - 064307842412",
   "treasurerBankBin": "970403",
   "treasurerAccountNo": "064307842412",
   "treasurerAccountName": "Le Huu Nghi",
   "qrCache": {},
-  "nextMemberId": 11
+  "nextMemberId": 11,
+  "savedAt": "2026-10-20T03:40:13.971Z"
 }
