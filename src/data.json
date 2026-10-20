@@ -49,6 +49,54 @@
   ],
   "expenses": [
     {
+      "id": 1792502030561,
+      "amount": 500000,
+      "payerId": 9,
+      "splits": [
+        {
+          "memberId": 5,
+          "amount": 55556
+        },
+        {
+          "memberId": 1,
+          "amount": 55556
+        },
+        {
+          "memberId": 3,
+          "amount": 55556
+        },
+        {
+          "memberId": 4,
+          "amount": 55556
+        },
+        {
+          "memberId": 6,
+          "amount": 55556
+        },
+        {
+          "memberId": 7,
+          "amount": 55556
+        },
+        {
+          "memberId": 8,
+          "amount": 55556
+        },
+        {
+          "memberId": 9,
+          "amount": 55556
+        },
+        {
+          "memberId": 10,
+          "amount": 55552
+        }
+      ],
+      "note": "Cọc phòng",
+      "category": "other",
+      "date": "2026-10-20",
+      "createdBy": 9,
+      "createdAt": "2026-10-20T13:13:50.561Z"
+    },
+    {
       "id": 1792467613971,
       "amount": 1000000,
       "payerId": 7,
@@ -104,5 +152,5 @@
   "treasurerAccountName": "Le Huu Nghi",
   "qrCache": {},
   "nextMemberId": 11,
-  "savedAt": "2026-10-20T03:40:13.971Z"
+  "savedAt": "2026-10-20T13:13:50.561Z"
 }
