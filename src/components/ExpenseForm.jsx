@@ -212,7 +212,7 @@ export default function ExpenseForm({ members, me, expense, saving, onSubmit, on
                 {payer && (
                   <span className="flex h-11 min-w-0 items-center gap-2 rounded-full bg-brand py-0 pl-2 pr-4 text-sm font-extrabold text-white">
                     <Avatar member={payer} size={26} ring={0} />
-                    <span className="truncate">
+                    <span className="whitespace-nowrap">
                       {payer.name}
                       {me && payer.id === me.id ? t('common.youSuffix') : ''}
                     </span>

@@ -165,7 +165,7 @@ export default function AdminPage() {
                   >
                     <Avatar member={member} size={38} />
                     <div className="min-w-0 flex-1">
-                      <div className="truncate text-[15px] font-extrabold">{member.name}</div>
+                      <div className="break-words text-[15px] font-extrabold leading-tight">{member.name}</div>
                       <div className={`text-[13px] font-extrabold ${owes ? 'text-debt' : has ? 'text-pine' : 'text-ink-soft'}`}>
                         {owes
                           ? t('balance.owes', { amount: formatVND(-balance) })
@@ -271,7 +271,7 @@ export default function AdminPage() {
                   className="flex w-full items-center gap-2.5 rounded-[20px] bg-white px-4 py-3 text-left text-sm font-extrabold"
                 >
                   {member && <Avatar member={member} size={32} />}
-                  <span className="min-w-0 flex-1 truncate">
+                  <span className="min-w-0 flex-1 break-words">
                     {member?.name} · {payment.type === 'pay' ? t('list.paymentPay') : t('list.paymentReceive')}
                     <span className="ml-2 text-xs text-ink-soft">{formatShortDate(String(payment.createdAt || '').slice(0, 10))}</span>
                     {payment.note ? <span className="ml-2 text-xs text-ink-soft">{payment.note}</span> : null}

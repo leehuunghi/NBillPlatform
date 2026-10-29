@@ -157,7 +157,7 @@ export default function MemberApp() {
             <Avatar member={me} size={52} />
             <div className="min-w-0 flex-1">
               <div className="text-[13px] font-extrabold text-ink-soft">{t('common.greeting')}</div>
-              <div className="truncate font-display text-[26px] font-extrabold leading-none">{me.name}</div>
+              <div className="break-words font-display text-[26px] font-extrabold leading-tight">{me.name}</div>
             </div>
           </div>
 

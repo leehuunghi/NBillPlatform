@@ -47,7 +47,7 @@ export default function ExpenseCard({ expense, me, members, index, onOpen }) {
       <div className="mt-3 flex w-full items-end gap-2.5">
         <div className="flex min-w-0 flex-1 items-center gap-2">
           <AvatarStack members={participants} />
-          <span className="truncate text-xs font-extrabold text-ink-soft">
+          <span className="break-words text-xs font-extrabold text-ink-soft">
             {participants.length === members.length
               ? t('common.allGroup')
               : t('common.peopleCount', { n: participants.length })}

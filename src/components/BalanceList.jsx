@@ -43,7 +43,7 @@ export default function BalanceList({ members, balances, treasurer, meId, totalS
               <Avatar member={member} size={34} />
               <div className="min-w-0 flex-1">
                 <div className="flex justify-between text-[13px] font-extrabold">
-                  <span className="truncate">
+                  <span className="min-w-0 break-words">
                     {member.name}
                     {member.id === meId ? t('common.youSuffix') : ''}
                   </span>

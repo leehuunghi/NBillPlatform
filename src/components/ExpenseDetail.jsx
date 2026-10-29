@@ -75,7 +75,7 @@ export default function ExpenseDetail({ expense, me, members, canEdit, busy, onE
               }`}
             >
               <Avatar member={member} size={38} />
-              <span className="flex-1 truncate text-sm font-extrabold">
+              <span className="min-w-0 flex-1 break-words text-sm font-extrabold leading-tight">
                 {member.name}
                 {me && member.id === me.id ? t('common.youSuffix') : ''}
               </span>

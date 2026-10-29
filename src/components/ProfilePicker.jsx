@@ -84,7 +84,7 @@ export default function ProfilePicker({ members, onChoose }) {
             >
               <Avatar member={member} size={avatarSize} ring={6} />
               <span
-                className="mt-4 max-w-full truncate px-3 font-display font-extrabold leading-none"
+                className="mt-4 max-w-full break-words px-3 text-center font-display font-extrabold leading-tight"
                 style={{ fontSize: isWide ? 34 : 28 }}
               >
                 {member.name}

@@ -32,7 +32,7 @@ export default function DebtorsSheet({ rows, meId, total, onClose }) {
             <Avatar member={member} size={44} />
             <div className="min-w-0 flex-1">
               <div className="flex items-baseline justify-between gap-2">
-                <span className="truncate text-base font-extrabold">
+                <span className="min-w-0 break-words text-base font-extrabold leading-tight">
                   {member.name}
                   {member.id === meId ? t('common.youSuffix') : ''}
                 </span>
