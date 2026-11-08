@@ -49,6 +49,54 @@
   ],
   "expenses": [
     {
+      "id": 1794114939836,
+      "amount": 480000,
+      "payerId": 4,
+      "splits": [
+        {
+          "memberId": 5,
+          "amount": 53333
+        },
+        {
+          "memberId": 1,
+          "amount": 53333
+        },
+        {
+          "memberId": 3,
+          "amount": 53333
+        },
+        {
+          "memberId": 4,
+          "amount": 53333
+        },
+        {
+          "memberId": 6,
+          "amount": 53333
+        },
+        {
+          "memberId": 7,
+          "amount": 53333
+        },
+        {
+          "memberId": 8,
+          "amount": 53333
+        },
+        {
+          "memberId": 9,
+          "amount": 53333
+        },
+        {
+          "memberId": 10,
+          "amount": 53336
+        }
+      ],
+      "note": "Cọc thuê xe",
+      "category": "go",
+      "date": "2026-11-08",
+      "createdBy": 9,
+      "createdAt": "2026-11-08T05:15:39.836Z"
+    },
+    {
       "id": 1792502030561,
       "amount": 500000,
       "payerId": 9,
@@ -159,5 +207,5 @@
     }
   },
   "nextMemberId": 11,
-  "savedAt": "2026-10-25T02:47:35.560Z"
+  "savedAt": "2026-11-08T05:15:39.836Z"
 }
