@@ -49,6 +49,34 @@
   ],
   "expenses": [
     {
+      "id": 1794607405575,
+      "amount": 140000,
+      "payerId": 1,
+      "splits": [
+        {
+          "memberId": 1,
+          "amount": 35000
+        },
+        {
+          "memberId": 4,
+          "amount": 35000
+        },
+        {
+          "memberId": 8,
+          "amount": 35000
+        },
+        {
+          "memberId": 9,
+          "amount": 35000
+        }
+      ],
+      "note": "Cf 24/7 chợ ĐL",
+      "category": "food",
+      "date": "2026-11-13",
+      "createdBy": 1,
+      "createdAt": "2026-11-13T22:03:25.575Z"
+    },
+    {
       "id": 1794114939836,
       "amount": 480000,
       "payerId": 4,
@@ -213,5 +241,5 @@
     }
   },
   "nextMemberId": 11,
-  "savedAt": "2026-11-13T07:19:55.201Z"
+  "savedAt": "2026-11-13T22:03:25.575Z"
 }
