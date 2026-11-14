@@ -175,39 +175,35 @@
       "splits": [
         {
           "memberId": 5,
-          "amount": 53333
+          "amount": 60000
         },
         {
           "memberId": 1,
-          "amount": 53333
+          "amount": 60000
         },
         {
           "memberId": 3,
-          "amount": 53333
+          "amount": 60000
         },
         {
           "memberId": 4,
-          "amount": 53333
+          "amount": 60000
         },
         {
           "memberId": 6,
-          "amount": 53333
+          "amount": 60000
         },
         {
           "memberId": 7,
-          "amount": 53333
+          "amount": 60000
         },
         {
           "memberId": 8,
-          "amount": 53333
+          "amount": 60000
         },
         {
           "memberId": 9,
-          "amount": 53333
-        },
-        {
-          "memberId": 10,
-          "amount": 53336
+          "amount": 60000
         }
       ],
       "note": "Cọc thuê xe",
@@ -333,5 +329,5 @@
     }
   },
   "nextMemberId": 11,
-  "savedAt": "2026-11-14T00:09:25.149Z"
+  "savedAt": "2026-11-14T00:09:37.930Z"
 }
