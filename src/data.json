@@ -49,6 +49,54 @@
   ],
   "expenses": [
     {
+      "id": 1794648436320,
+      "amount": 490000,
+      "payerId": 4,
+      "splits": [
+        {
+          "memberId": 5,
+          "amount": 54444
+        },
+        {
+          "memberId": 1,
+          "amount": 54444
+        },
+        {
+          "memberId": 3,
+          "amount": 54444
+        },
+        {
+          "memberId": 4,
+          "amount": 54444
+        },
+        {
+          "memberId": 6,
+          "amount": 54444
+        },
+        {
+          "memberId": 7,
+          "amount": 54444
+        },
+        {
+          "memberId": 8,
+          "amount": 54444
+        },
+        {
+          "memberId": 9,
+          "amount": 54444
+        },
+        {
+          "memberId": 10,
+          "amount": 54448
+        }
+      ],
+      "note": "Bánh xèo",
+      "category": "food",
+      "date": "2026-11-14",
+      "createdBy": 9,
+      "createdAt": "2026-11-14T09:27:16.320Z"
+    },
+    {
       "id": 1794633780326,
       "amount": 900000,
       "payerId": 10,
@@ -425,5 +473,5 @@
     }
   },
   "nextMemberId": 11,
-  "savedAt": "2026-11-14T05:24:01.630Z"
+  "savedAt": "2026-11-14T09:27:16.320Z"
 }
