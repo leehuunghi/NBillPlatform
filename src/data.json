@@ -49,6 +49,54 @@
   ],
   "expenses": [
     {
+      "id": 1794614965149,
+      "amount": 3500000,
+      "payerId": 9,
+      "splits": [
+        {
+          "memberId": 5,
+          "amount": 388889
+        },
+        {
+          "memberId": 1,
+          "amount": 388889
+        },
+        {
+          "memberId": 3,
+          "amount": 388889
+        },
+        {
+          "memberId": 4,
+          "amount": 388889
+        },
+        {
+          "memberId": 6,
+          "amount": 388889
+        },
+        {
+          "memberId": 7,
+          "amount": 388889
+        },
+        {
+          "memberId": 8,
+          "amount": 388889
+        },
+        {
+          "memberId": 9,
+          "amount": 388889
+        },
+        {
+          "memberId": 10,
+          "amount": 388888
+        }
+      ],
+      "note": "Tiền nhà còn lại",
+      "category": "other",
+      "date": "2026-11-14",
+      "createdBy": 9,
+      "createdAt": "2026-11-14T00:09:25.149Z"
+    },
+    {
       "id": 1794614929937,
       "amount": 480000,
       "payerId": 1,
@@ -285,5 +333,5 @@
     }
   },
   "nextMemberId": 11,
-  "savedAt": "2026-11-14T00:08:49.937Z"
+  "savedAt": "2026-11-14T00:09:25.149Z"
 }
