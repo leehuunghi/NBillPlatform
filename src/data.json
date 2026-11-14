@@ -49,6 +49,54 @@
   ],
   "expenses": [
     {
+      "id": 1794658521312,
+      "amount": 180000,
+      "payerId": 10,
+      "splits": [
+        {
+          "memberId": 5,
+          "amount": 20000
+        },
+        {
+          "memberId": 1,
+          "amount": 20000
+        },
+        {
+          "memberId": 3,
+          "amount": 20000
+        },
+        {
+          "memberId": 4,
+          "amount": 20000
+        },
+        {
+          "memberId": 6,
+          "amount": 20000
+        },
+        {
+          "memberId": 7,
+          "amount": 20000
+        },
+        {
+          "memberId": 8,
+          "amount": 20000
+        },
+        {
+          "memberId": 9,
+          "amount": 20000
+        },
+        {
+          "memberId": 10,
+          "amount": 20000
+        }
+      ],
+      "note": "Bánh tráng nướng",
+      "category": "food",
+      "date": "2026-11-14",
+      "createdBy": 10,
+      "createdAt": "2026-11-14T12:15:21.312Z"
+    },
+    {
       "id": 1794648436320,
       "amount": 490000,
       "payerId": 4,
@@ -473,5 +521,5 @@
     }
   },
   "nextMemberId": 11,
-  "savedAt": "2026-11-14T09:27:16.320Z"
+  "savedAt": "2026-11-14T12:15:21.312Z"
 }
