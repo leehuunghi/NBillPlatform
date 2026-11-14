@@ -49,6 +49,50 @@
   ],
   "expenses": [
     {
+      "id": 1794614929937,
+      "amount": 480000,
+      "payerId": 1,
+      "splits": [
+        {
+          "memberId": 5,
+          "amount": 60000
+        },
+        {
+          "memberId": 1,
+          "amount": 60000
+        },
+        {
+          "memberId": 3,
+          "amount": 60000
+        },
+        {
+          "memberId": 4,
+          "amount": 60000
+        },
+        {
+          "memberId": 6,
+          "amount": 60000
+        },
+        {
+          "memberId": 7,
+          "amount": 60000
+        },
+        {
+          "memberId": 8,
+          "amount": 60000
+        },
+        {
+          "memberId": 9,
+          "amount": 60000
+        }
+      ],
+      "note": "Tiền xe còn lại",
+      "category": "go",
+      "date": "2026-11-14",
+      "createdBy": 1,
+      "createdAt": "2026-11-14T00:08:49.937Z"
+    },
+    {
       "id": 1794607405575,
       "amount": 140000,
       "payerId": 1,
@@ -241,5 +285,5 @@
     }
   },
   "nextMemberId": 11,
-  "savedAt": "2026-11-13T22:03:25.575Z"
+  "savedAt": "2026-11-14T00:08:49.937Z"
 }
