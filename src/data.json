@@ -49,6 +49,54 @@
   ],
   "expenses": [
     {
+      "id": 1794633780326,
+      "amount": 900000,
+      "payerId": 10,
+      "splits": [
+        {
+          "memberId": 5,
+          "amount": 100000
+        },
+        {
+          "memberId": 1,
+          "amount": 100000
+        },
+        {
+          "memberId": 3,
+          "amount": 100000
+        },
+        {
+          "memberId": 4,
+          "amount": 100000
+        },
+        {
+          "memberId": 6,
+          "amount": 100000
+        },
+        {
+          "memberId": 7,
+          "amount": 100000
+        },
+        {
+          "memberId": 8,
+          "amount": 100000
+        },
+        {
+          "memberId": 9,
+          "amount": 100000
+        },
+        {
+          "memberId": 10,
+          "amount": 100000
+        }
+      ],
+      "note": "Ríu rít",
+      "category": "food",
+      "date": "2026-11-14",
+      "createdBy": 10,
+      "createdAt": "2026-11-14T05:23:00.326Z"
+    },
+    {
       "id": 1794622830962,
       "amount": 460000,
       "payerId": 7,
@@ -377,5 +425,5 @@
     }
   },
   "nextMemberId": 11,
-  "savedAt": "2026-11-14T02:21:12.226Z"
+  "savedAt": "2026-11-14T05:23:00.326Z"
 }
