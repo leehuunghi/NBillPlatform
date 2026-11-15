@@ -49,6 +49,42 @@
   ],
   "expenses": [
     {
+      "id": 1794744908598,
+      "amount": 518000,
+      "payerId": 1,
+      "splits": [
+        {
+          "memberId": 1,
+          "amount": 86333
+        },
+        {
+          "memberId": 3,
+          "amount": 86333
+        },
+        {
+          "memberId": 4,
+          "amount": 86333
+        },
+        {
+          "memberId": 6,
+          "amount": 86333
+        },
+        {
+          "memberId": 8,
+          "amount": 86333
+        },
+        {
+          "memberId": 9,
+          "amount": 86335
+        }
+      ],
+      "note": "Ốc 33",
+      "category": "food",
+      "date": "2026-11-15",
+      "createdBy": 1,
+      "createdAt": "2026-11-15T12:15:08.598Z"
+    },
+    {
       "id": 1794744887659,
       "amount": 75000,
       "payerId": 8,
@@ -969,5 +1005,5 @@
     }
   },
   "nextMemberId": 11,
-  "savedAt": "2026-11-15T12:14:47.659Z"
+  "savedAt": "2026-11-15T12:15:08.598Z"
 }
