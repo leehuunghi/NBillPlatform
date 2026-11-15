@@ -49,6 +49,30 @@
   ],
   "expenses": [
     {
+      "id": 1794718145152,
+      "amount": 75000,
+      "payerId": 10,
+      "splits": [
+        {
+          "memberId": 8,
+          "amount": 25000
+        },
+        {
+          "memberId": 9,
+          "amount": 25000
+        },
+        {
+          "memberId": 10,
+          "amount": 25000
+        }
+      ],
+      "note": "Bánh mì",
+      "category": "food",
+      "date": "2026-11-15",
+      "createdBy": 10,
+      "createdAt": "2026-11-15T04:49:05.152Z"
+    },
+    {
       "id": 1794718104049,
       "amount": 96000,
       "payerId": 10,
@@ -789,5 +813,5 @@
     }
   },
   "nextMemberId": 11,
-  "savedAt": "2026-11-15T04:48:24.049Z"
+  "savedAt": "2026-11-15T04:49:05.152Z"
 }
