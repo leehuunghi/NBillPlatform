@@ -49,6 +49,50 @@
   ],
   "expenses": [
     {
+      "id": 1794744928387,
+      "amount": 60000,
+      "payerId": 1,
+      "splits": [
+        {
+          "memberId": 5,
+          "amount": 7500
+        },
+        {
+          "memberId": 1,
+          "amount": 7500
+        },
+        {
+          "memberId": 3,
+          "amount": 7500
+        },
+        {
+          "memberId": 4,
+          "amount": 7500
+        },
+        {
+          "memberId": 6,
+          "amount": 7500
+        },
+        {
+          "memberId": 7,
+          "amount": 7500
+        },
+        {
+          "memberId": 8,
+          "amount": 7500
+        },
+        {
+          "memberId": 9,
+          "amount": 7500
+        }
+      ],
+      "note": "Xăng",
+      "category": "go",
+      "date": "2026-11-15",
+      "createdBy": 1,
+      "createdAt": "2026-11-15T12:15:28.387Z"
+    },
+    {
       "id": 1794744908598,
       "amount": 518000,
       "payerId": 1,
@@ -1005,5 +1049,5 @@
     }
   },
   "nextMemberId": 11,
-  "savedAt": "2026-11-15T12:15:08.598Z"
+  "savedAt": "2026-11-15T12:15:28.387Z"
 }
