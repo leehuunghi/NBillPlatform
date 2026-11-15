@@ -49,6 +49,22 @@
   ],
   "expenses": [
     {
+      "id": 1794745039184,
+      "amount": 100000,
+      "payerId": 8,
+      "splits": [
+        {
+          "memberId": 7,
+          "amount": 100000
+        }
+      ],
+      "note": "Dâu",
+      "category": "food",
+      "date": "2026-11-15",
+      "createdBy": 8,
+      "createdAt": "2026-11-15T12:17:19.184Z"
+    },
+    {
       "id": 1794745037667,
       "amount": 30000,
       "payerId": 9,
@@ -1093,5 +1109,5 @@
     }
   },
   "nextMemberId": 11,
-  "savedAt": "2026-11-15T12:17:17.667Z"
+  "savedAt": "2026-11-15T12:17:19.184Z"
 }
