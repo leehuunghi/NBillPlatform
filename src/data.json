@@ -49,6 +49,46 @@
   ],
   "expenses": [
     {
+      "id": 1794747362817,
+      "amount": 1212000,
+      "payerId": 7,
+      "splits": [
+        {
+          "memberId": 5,
+          "amount": 173143
+        },
+        {
+          "memberId": 1,
+          "amount": 173143
+        },
+        {
+          "memberId": 4,
+          "amount": 173143
+        },
+        {
+          "memberId": 6,
+          "amount": 173143
+        },
+        {
+          "memberId": 7,
+          "amount": 173143
+        },
+        {
+          "memberId": 8,
+          "amount": 173143
+        },
+        {
+          "memberId": 9,
+          "amount": 173142
+        }
+      ],
+      "note": "Pizza",
+      "category": "food",
+      "date": "2026-11-15",
+      "createdBy": 7,
+      "createdAt": "2026-11-15T12:56:02.817Z"
+    },
+    {
       "id": 1794745039184,
       "amount": 100000,
       "payerId": 8,
@@ -1109,5 +1149,5 @@
     }
   },
   "nextMemberId": 11,
-  "savedAt": "2026-11-15T12:17:19.184Z"
+  "savedAt": "2026-11-15T12:56:02.818Z"
 }
