@@ -49,6 +49,54 @@
   ],
   "expenses": [
     {
+      "id": 1794707196243,
+      "amount": 740000,
+      "payerId": 8,
+      "splits": [
+        {
+          "memberId": 5,
+          "amount": 82222
+        },
+        {
+          "memberId": 1,
+          "amount": 82222
+        },
+        {
+          "memberId": 3,
+          "amount": 82222
+        },
+        {
+          "memberId": 4,
+          "amount": 82222
+        },
+        {
+          "memberId": 6,
+          "amount": 82222
+        },
+        {
+          "memberId": 7,
+          "amount": 82222
+        },
+        {
+          "memberId": 8,
+          "amount": 82222
+        },
+        {
+          "memberId": 9,
+          "amount": 82222
+        },
+        {
+          "memberId": 10,
+          "amount": 82224
+        }
+      ],
+      "note": "Lẩu , chân gà , cơm",
+      "category": "food",
+      "date": "2026-11-14",
+      "createdBy": 8,
+      "createdAt": "2026-11-15T01:46:36.243Z"
+    },
+    {
       "id": 1794658978970,
       "amount": 985000,
       "payerId": 4,
@@ -569,5 +617,5 @@
     }
   },
   "nextMemberId": 11,
-  "savedAt": "2026-11-14T12:22:58.970Z"
+  "savedAt": "2026-11-15T01:46:36.243Z"
 }
