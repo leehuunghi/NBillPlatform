@@ -49,6 +49,50 @@
   ],
   "expenses": [
     {
+      "id": 1794732732792,
+      "amount": 200000,
+      "payerId": 10,
+      "splits": [
+        {
+          "memberId": 5,
+          "amount": 25000
+        },
+        {
+          "memberId": 1,
+          "amount": 25000
+        },
+        {
+          "memberId": 3,
+          "amount": 25000
+        },
+        {
+          "memberId": 4,
+          "amount": 25000
+        },
+        {
+          "memberId": 6,
+          "amount": 25000
+        },
+        {
+          "memberId": 7,
+          "amount": 25000
+        },
+        {
+          "memberId": 8,
+          "amount": 25000
+        },
+        {
+          "memberId": 10,
+          "amount": 25000
+        }
+      ],
+      "note": "Bánh cu vâu",
+      "category": "food",
+      "date": "2026-11-15",
+      "createdBy": 10,
+      "createdAt": "2026-11-15T08:52:12.792Z"
+    },
+    {
       "id": 1794718145152,
       "amount": 75000,
       "payerId": 10,
@@ -813,5 +857,5 @@
     }
   },
   "nextMemberId": 11,
-  "savedAt": "2026-11-15T04:49:05.152Z"
+  "savedAt": "2026-11-15T08:52:12.792Z"
 }
