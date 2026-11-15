@@ -49,6 +49,34 @@
   ],
   "expenses": [
     {
+      "id": 1794748645430,
+      "amount": 80000,
+      "payerId": 1,
+      "splits": [
+        {
+          "memberId": 1,
+          "amount": 20000
+        },
+        {
+          "memberId": 3,
+          "amount": 20000
+        },
+        {
+          "memberId": 6,
+          "amount": 20000
+        },
+        {
+          "memberId": 8,
+          "amount": 20000
+        }
+      ],
+      "note": "Xăng",
+      "category": "go",
+      "date": "2026-11-15",
+      "createdBy": 1,
+      "createdAt": "2026-11-15T13:17:25.430Z"
+    },
+    {
       "id": 1794747362817,
       "amount": 1212000,
       "payerId": 7,
@@ -1097,5 +1125,5 @@
     }
   },
   "nextMemberId": 11,
-  "savedAt": "2026-11-15T13:16:36.487Z"
+  "savedAt": "2026-11-15T13:17:25.430Z"
 }
