@@ -49,6 +49,54 @@
   ],
   "expenses": [
     {
+      "id": 1794748727610,
+      "amount": 1040000,
+      "payerId": 7,
+      "splits": [
+        {
+          "memberId": 5,
+          "amount": 115556
+        },
+        {
+          "memberId": 1,
+          "amount": 115556
+        },
+        {
+          "memberId": 3,
+          "amount": 115556
+        },
+        {
+          "memberId": 4,
+          "amount": 115556
+        },
+        {
+          "memberId": 6,
+          "amount": 115556
+        },
+        {
+          "memberId": 7,
+          "amount": 115556
+        },
+        {
+          "memberId": 8,
+          "amount": 115556
+        },
+        {
+          "memberId": 9,
+          "amount": 115556
+        },
+        {
+          "memberId": 10,
+          "amount": 115552
+        }
+      ],
+      "note": "Gà cơm lam",
+      "category": "food",
+      "date": "2026-11-15",
+      "createdBy": 7,
+      "createdAt": "2026-11-15T13:18:47.610Z"
+    },
+    {
       "id": 1794748645430,
       "amount": 40000,
       "payerId": 1,
@@ -1109,5 +1157,5 @@
     }
   },
   "nextMemberId": 11,
-  "savedAt": "2026-11-15T13:18:06.854Z"
+  "savedAt": "2026-11-15T13:18:47.610Z"
 }
