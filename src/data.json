@@ -49,6 +49,30 @@
   ],
   "expenses": [
     {
+      "id": 1794744887659,
+      "amount": 75000,
+      "payerId": 8,
+      "splits": [
+        {
+          "memberId": 1,
+          "amount": 25000
+        },
+        {
+          "memberId": 6,
+          "amount": 25000
+        },
+        {
+          "memberId": 8,
+          "amount": 25000
+        }
+      ],
+      "note": "Bánh mì Liên Hoa",
+      "category": "food",
+      "date": "2026-11-15",
+      "createdBy": 8,
+      "createdAt": "2026-11-15T12:14:47.659Z"
+    },
+    {
       "id": 1794744850873,
       "amount": 150000,
       "payerId": 9,
@@ -945,5 +969,5 @@
     }
   },
   "nextMemberId": 11,
-  "savedAt": "2026-11-15T12:14:10.877Z"
+  "savedAt": "2026-11-15T12:14:47.659Z"
 }
