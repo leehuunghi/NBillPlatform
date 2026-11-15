@@ -49,6 +49,54 @@
   ],
   "expenses": [
     {
+      "id": 1794718104049,
+      "amount": 96000,
+      "payerId": 10,
+      "splits": [
+        {
+          "memberId": 5,
+          "amount": 10667
+        },
+        {
+          "memberId": 1,
+          "amount": 10667
+        },
+        {
+          "memberId": 3,
+          "amount": 10667
+        },
+        {
+          "memberId": 4,
+          "amount": 10667
+        },
+        {
+          "memberId": 6,
+          "amount": 10667
+        },
+        {
+          "memberId": 7,
+          "amount": 10667
+        },
+        {
+          "memberId": 8,
+          "amount": 10667
+        },
+        {
+          "memberId": 9,
+          "amount": 10667
+        },
+        {
+          "memberId": 10,
+          "amount": 10664
+        }
+      ],
+      "note": "Snack",
+      "category": "food",
+      "date": "2026-11-14",
+      "createdBy": 10,
+      "createdAt": "2026-11-15T04:48:24.049Z"
+    },
+    {
       "id": 1794717116064,
       "amount": 216000,
       "payerId": 1,
@@ -741,5 +789,5 @@
     }
   },
   "nextMemberId": 11,
-  "savedAt": "2026-11-15T04:31:56.064Z"
+  "savedAt": "2026-11-15T04:48:24.049Z"
 }
