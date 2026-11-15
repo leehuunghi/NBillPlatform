@@ -49,6 +49,22 @@
   ],
   "expenses": [
     {
+      "id": 1794743054563,
+      "amount": 22000,
+      "payerId": 6,
+      "splits": [
+        {
+          "memberId": 7,
+          "amount": 22000
+        }
+      ],
+      "note": "Cf cho Nghị",
+      "category": "food",
+      "date": "2026-11-15",
+      "createdBy": 6,
+      "createdAt": "2026-11-15T11:44:14.563Z"
+    },
+    {
       "id": 1794741512756,
       "amount": 1114000,
       "payerId": 4,
@@ -905,5 +921,5 @@
     }
   },
   "nextMemberId": 11,
-  "savedAt": "2026-11-15T11:18:32.756Z"
+  "savedAt": "2026-11-15T11:44:14.563Z"
 }
