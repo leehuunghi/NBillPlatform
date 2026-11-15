@@ -49,6 +49,30 @@
   ],
   "expenses": [
     {
+      "id": 1794744850873,
+      "amount": 150000,
+      "payerId": 9,
+      "splits": [
+        {
+          "memberId": 1,
+          "amount": 50000
+        },
+        {
+          "memberId": 4,
+          "amount": 50000
+        },
+        {
+          "memberId": 9,
+          "amount": 50000
+        }
+      ],
+      "note": "Cà phê 3/4",
+      "category": "food",
+      "date": "2026-11-15",
+      "createdBy": 9,
+      "createdAt": "2026-11-15T12:14:10.873Z"
+    },
+    {
       "id": 1794743054563,
       "amount": 22000,
       "payerId": 6,
@@ -921,5 +945,5 @@
     }
   },
   "nextMemberId": 11,
-  "savedAt": "2026-11-15T11:44:14.563Z"
+  "savedAt": "2026-11-15T12:14:10.877Z"
 }
