@@ -50,23 +50,15 @@
   "expenses": [
     {
       "id": 1794748645430,
-      "amount": 80000,
+      "amount": 40000,
       "payerId": 1,
       "splits": [
-        {
-          "memberId": 1,
-          "amount": 20000
-        },
         {
           "memberId": 3,
           "amount": 20000
         },
         {
           "memberId": 6,
-          "amount": 20000
-        },
-        {
-          "memberId": 8,
           "amount": 20000
         }
       ],
@@ -1125,5 +1117,5 @@
     }
   },
   "nextMemberId": 11,
-  "savedAt": "2026-11-15T13:17:25.430Z"
+  "savedAt": "2026-11-15T13:17:45.550Z"
 }
