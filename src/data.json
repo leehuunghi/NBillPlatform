@@ -49,6 +49,34 @@
   ],
   "expenses": [
     {
+      "id": 1794717116064,
+      "amount": 216000,
+      "payerId": 1,
+      "splits": [
+        {
+          "memberId": 1,
+          "amount": 54000
+        },
+        {
+          "memberId": 4,
+          "amount": 54000
+        },
+        {
+          "memberId": 8,
+          "amount": 54000
+        },
+        {
+          "memberId": 9,
+          "amount": 54000
+        }
+      ],
+      "note": "Bánh ướt",
+      "category": "food",
+      "date": "2026-11-15",
+      "createdBy": 1,
+      "createdAt": "2026-11-15T04:31:56.064Z"
+    },
+    {
       "id": 1794707309131,
       "amount": 315000,
       "payerId": 8,
@@ -713,5 +741,5 @@
     }
   },
   "nextMemberId": 11,
-  "savedAt": "2026-11-15T01:48:29.131Z"
+  "savedAt": "2026-11-15T04:31:56.064Z"
 }
