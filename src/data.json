@@ -49,6 +49,54 @@
   ],
   "expenses": [
     {
+      "id": 1794707309131,
+      "amount": 315000,
+      "payerId": 8,
+      "splits": [
+        {
+          "memberId": 5,
+          "amount": 35000
+        },
+        {
+          "memberId": 1,
+          "amount": 35000
+        },
+        {
+          "memberId": 3,
+          "amount": 35000
+        },
+        {
+          "memberId": 4,
+          "amount": 35000
+        },
+        {
+          "memberId": 6,
+          "amount": 35000
+        },
+        {
+          "memberId": 7,
+          "amount": 35000
+        },
+        {
+          "memberId": 8,
+          "amount": 35000
+        },
+        {
+          "memberId": 9,
+          "amount": 35000
+        },
+        {
+          "memberId": 10,
+          "amount": 35000
+        }
+      ],
+      "note": "Bắp Khoai + Than nướng",
+      "category": "food",
+      "date": "2026-11-15",
+      "createdBy": 8,
+      "createdAt": "2026-11-15T01:48:29.131Z"
+    },
+    {
       "id": 1794707237338,
       "amount": 135000,
       "payerId": 8,
@@ -665,5 +713,5 @@
     }
   },
   "nextMemberId": 11,
-  "savedAt": "2026-11-15T01:47:17.339Z"
+  "savedAt": "2026-11-15T01:48:29.131Z"
 }
