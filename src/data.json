@@ -1259,6 +1259,14 @@
   ],
   "payments": [
     {
+      "id": 1794822569000,
+      "memberId": 1,
+      "amount": 383921,
+      "type": "pay",
+      "note": "",
+      "createdAt": "2026-11-16T09:49:29.000Z"
+    },
+    {
       "id": 1794804259266,
       "memberId": 3,
       "amount": 1549778,
@@ -1288,12 +1296,6 @@
   "treasurerAccountNo": "20032412",
   "treasurerAccountName": "Le Huu Nghi",
   "qrCache": {
-    "1": {
-      "checksum": 383921,
-      "payload": "00020101021238520010A000000727012200069704070108200324120208QRIBFTTA530370454063839215802VN62080804TIEN6304DDBA",
-      "addInfo": "TIEN",
-      "updatedAt": "2026-11-16T04:47:04.984Z"
-    },
     "8": {
       "checksum": 324921,
       "payload": "00020101021238520010A000000727012200069704070108200324120208QRIBFTTA530370454063249215802VN62130809MINH NHAN63043A03",
@@ -1302,5 +1304,5 @@
     }
   },
   "nextMemberId": 11,
-  "savedAt": "2026-11-16T04:47:05.478Z"
+  "savedAt": "2026-11-16T09:49:29.000Z"
 }
