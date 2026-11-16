@@ -49,6 +49,42 @@
   ],
   "expenses": [
     {
+      "id": 1794802482084,
+      "amount": 40000,
+      "payerId": 8,
+      "splits": [
+        {
+          "memberId": 1,
+          "amount": 6667
+        },
+        {
+          "memberId": 3,
+          "amount": 6667
+        },
+        {
+          "memberId": 4,
+          "amount": 6667
+        },
+        {
+          "memberId": 6,
+          "amount": 6667
+        },
+        {
+          "memberId": 8,
+          "amount": 6667
+        },
+        {
+          "memberId": 9,
+          "amount": 6665
+        }
+      ],
+      "note": "Grab ra bến xe",
+      "category": "go",
+      "date": "2026-11-16",
+      "createdBy": 8,
+      "createdAt": "2026-11-16T04:14:42.084Z"
+    },
+    {
       "id": 1794754483703,
       "amount": 50000,
       "payerId": 1,
@@ -1213,5 +1249,5 @@
     }
   },
   "nextMemberId": 11,
-  "savedAt": "2026-11-15T14:54:43.703Z"
+  "savedAt": "2026-11-16T04:14:42.084Z"
 }
