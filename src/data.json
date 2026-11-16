@@ -1257,7 +1257,16 @@
       "createdAt": "2026-10-20T03:40:13.971Z"
     }
   ],
-  "payments": [],
+  "payments": [
+    {
+      "id": 1794804061167,
+      "memberId": 5,
+      "amount": 1590921,
+      "type": "pay",
+      "note": "",
+      "createdAt": "2026-11-16T04:41:01.167Z"
+    }
+  ],
   "treasurerAccount": "Sacombank - 064307842412",
   "treasurerBankBin": "970407",
   "treasurerAccountNo": "20032412",
@@ -1268,12 +1277,6 @@
       "payload": "00020101021238560010A0000007270126000697040301120643078424120208QRIBFTTA53037045405905565802VN62080804TIEN630485AC",
       "addInfo": "TIEN",
       "updatedAt": "2026-11-14T05:24:01.325Z"
-    },
-    "5": {
-      "checksum": 1590921,
-      "payload": "00020101021238520010A000000727012200069704070108200324120208QRIBFTTA5303704540715909215802VN62080804THAO6304B234",
-      "addInfo": "THAO",
-      "updatedAt": "2026-11-16T04:38:55.181Z"
     },
     "6": {
       "checksum": 1725921,
@@ -1289,5 +1292,5 @@
     }
   },
   "nextMemberId": 11,
-  "savedAt": "2026-11-16T04:38:55.531Z"
+  "savedAt": "2026-11-16T04:41:01.167Z"
 }
