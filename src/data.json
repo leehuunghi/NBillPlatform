@@ -387,7 +387,7 @@
       "splits": [
         {
           "memberId": 1,
-          "amount": 50000
+          "amount": 45000
         },
         {
           "memberId": 4,
@@ -395,7 +395,7 @@
         },
         {
           "memberId": 9,
-          "amount": 50000
+          "amount": 55000
         }
       ],
       "note": "Cà phê 3/4",
@@ -1283,5 +1283,5 @@
     }
   },
   "nextMemberId": 11,
-  "savedAt": "2026-11-16T04:21:32.962Z"
+  "savedAt": "2026-11-16T04:26:29.372Z"
 }
