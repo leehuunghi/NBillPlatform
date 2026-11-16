@@ -1259,6 +1259,14 @@
   ],
   "payments": [
     {
+      "id": 1794827207234,
+      "memberId": 4,
+      "amount": 1186079,
+      "type": "receive",
+      "note": "",
+      "createdAt": "2026-11-16T11:06:47.234Z"
+    },
+    {
       "id": 1794826250599,
       "memberId": 10,
       "amount": 128224,
@@ -1321,5 +1329,5 @@
   "treasurerAccountName": "Le Huu Nghi",
   "qrCache": {},
   "nextMemberId": 11,
-  "savedAt": "2026-11-16T10:50:50.599Z"
+  "savedAt": "2026-11-16T11:06:47.234Z"
 }
